@@ -1,4 +1,3 @@
-Here is the plain text version of the fully detailed page with all the information for your GitHub profile:
 
 ---
 
@@ -52,4 +51,3 @@ Licensed under the [Personal License](LICENSE.txt).
 
 ---
 
-This plain text version can be added to your GitHub repository as a `README.txt` or `LICENSE.txt` file, and it can be easily viewed by anyone who visits your repository. Make sure to replace any placeholder links or names as needed.
