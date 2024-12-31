@@ -1,1 +1,169 @@
-<script language=javascript>document.write(unescape('%3C%21DOCTYPE%20html%3E%0D%0A%3Chtml%3E%0D%0A%3Chead%3E%0D%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0D%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%22%3E%0D%0A%20%20%20%20%3Ctitle%3EWord%20Encryptor%3C/title%3E%0D%0A%20%20%20%20%3Cmeta%20name%3D%22keywords%22%20content%3D%22Encryptor%20can%20help%2C%20if%20you%20need%20to%20circumvent%20word%20filters.%20Hide%20something%20from%20Spam%20Filters%2C%20Bots%2C%20but%20you%20want%20to%20keep%20it%20readable%20for%20humans.%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css%22%3E%0D%0A%20%20%20%20%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css%3Ffamily%3DMontserrat%3A300%2C400%2C500%2C600%22%20rel%3D%22stylesheet%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/bootstrap.css%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/bootstrap-extended.css%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/style.css%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/colors.css%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/dark-layout.css%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/semi-dark-layout.css%22%3E%0D%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22assets/css/horizontal-menu.css%22%3E%0D%0A%20%20%20%20%3Cstyle%3E%20/*%20Basic%20styling%20to%20make%20it%20work%20without%20external%20CSS%20*/%0D%0A%20%20%20%20%20%20%20%20body%20%7B%20font-family%3A%20sans-serif%3B%20%7D%0D%0A%20%20%20%20%20%20%20%20.card%20%7B%20width%3A%2080%25%3B%20margin%3A%2020px%20auto%3B%20border%3A%201px%20solid%20%23ccc%3B%20padding%3A%2020px%3B%20%7D%0D%0A%20%20%20%20%20%20%20%20textarea%20%7B%20width%3A%20calc%28100%25%20-%2010px%29%3B%20margin-bottom%3A%2010px%3B%20padding%3A%205px%3B%20box-sizing%3A%20border-box%3B%20%7D%0D%0A%20%20%20%20%3C/style%3E%0D%0A%3C/head%3E%0D%0A%3Cbody%3E%0D%0A%20%20%20%20%3Cdiv%20class%3D%22card%22%3E%0D%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%22%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch4%3EWord%20Encryptor%20by%20RedHydra%3C/h4%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cscript%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20A%20VERY%20basic%20obfuscation%20function%20for%20demonstration.%20Replace%20with%20a%20real%20one.%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20function%20perfectObfuscator%28text%29%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20let%20obfuscated%20%3D%20%22%22%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20for%20%28let%20i%20%3D%200%3B%20i%20%3C%20text.length%3B%20i++%29%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20obfuscated%20+%3D%20%22%26%23%22%20+%20text.charCodeAt%28i%29%20+%20%22%3B%22%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%20obfuscated%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20window.obfuscator%20%3D%20perfectObfuscator%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20window.lastText%20%3D%20%22%22%3B%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20setInterval%28function%28%29%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20var%20text%20%3D%20document.getElementById%28%27text%27%29.value%3B%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20if%20%28text%20%3D%3D%3D%20lastText%29%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%3B%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20document.getElementById%28%27textres%27%29.value%20%3D%20obfuscator%28text%29%3B%20//%20Directly%20call%20the%20function%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20lastText%20%3D%20text%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%2050%29%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/script%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ccenter%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cform%20id%3D%22obfuscatorform%22%20onsubmit%3D%22event.preventDefault%28%29%3B%22%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctextarea%20class%3D%22form-control%22%20id%3D%22text%22%20rows%3D%223%22%3E%3C/textarea%3E%3Cbr%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctextarea%20readonly%20class%3D%22form-control%22%20rows%3D%223%22%20id%3D%22textres%22%3EEncrypted%20text%20will%20appear%20here%3C/textarea%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/form%3E%3Cbr%3E%3Cbr%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Caside%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%3EWhy%20Encryptor%3F%3C/h3%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Encryptor%20can%20help%2C%20if%20you%20need%20to%20circumvent%20word%20filters.%20Hide%20something%20from%20Spam%20Filters%2C%20Bots%2C%20but%20you%20want%20to%20keep%20it%20readable%20for%20humans.%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/center%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22footer%22%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Copyright%20%26copy%3B%202022%20%3Ca%20href%3D%27https%3A//facebook.com/xxx.redhydra.xxx%27%3EWord%20Encryptor%3C/a%3E%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0D%0A%20%20%20%20%20%20%20%20%3C/div%3E%0D%0A%20%20%20%20%3C/div%3E%0D%0A%3C/body%3E%0D%0A%3C/html%3E'))</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Encryptor</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: black;
+            color: #00ff00;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+            margin: 0;
+        }
+        textarea {
+            width: 80%;
+            max-width: 600px;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #00ff00;
+            border-radius: 8px;
+            resize: none;
+            background: black;
+            color: #00ff00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+        }
+        button {
+            background-color: black;
+            color: #00ff00;
+            border: 2px solid #00ff00;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+        }
+        button:hover {
+            background-color: #00ff00;
+            color: black;
+            transform: scale(1.05);
+        }
+        .info-box {
+            background: black;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 80%;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #00ff00;
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            border-top: 2px solid #00ff00;
+            position: relative;
+            z-index: 10;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+        }
+        footer a {
+            color: #00ff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .matrix {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .matrix canvas {
+            display: block;
+        }
+    </style>
+    <script>
+        const homoglyphMap = {
+            A: 'А', B: 'В', C: 'С', D: 'Ꭰ', E: 'Е', F: 'Ғ', G: 'Ԍ', H: 'Н',
+            I: 'І', J: 'Ј', K: 'Κ', L: 'Ꮮ', M: 'М', N: 'Ν', O: 'О', P: 'Р',
+            Q: 'Ԛ', R: 'Ꭱ', S: 'Ѕ', T: 'Т', U: 'Ս', V: 'Ѵ', W: 'Ԝ', X: 'Х',
+            Y: 'Ү', Z: 'Ꮓ', a: 'а', b: 'Ь', c: 'с', d: 'ԁ', e: 'е', f: 'ғ',
+            g: 'ɡ', h: 'һ', i: 'і', j: 'ϳ', k: '𝗄', l: 'ⅼ', m: 'м', n: 'ո',
+            o: 'о', p: 'р', q: 'գ', r: 'г', s: 'ѕ', t: '𝗍', u: 'ս', v: 'ѵ',
+            w: 'ԝ', x: 'х', y: '𝗒', z: 'ᴢ', 0: '𝟬', 1: '𝟭', 2: '𝟮', 3: '𝟯',
+            4: '𝟰', 5: '𝟱', 6: '𝟲', 7: '𝟯', 8: '𝟴', 9: '𝟵'
+        };
+
+        function encryptText(text) {
+            return text.split('').map(char => homoglyphMap[char] || char).join('');
+        }
+
+        function handleEncrypt() {
+            const inputText = document.getElementById('text').value;
+            const encryptedText = encryptText(inputText);
+            document.getElementById('textres').value = encryptedText;
+        }
+
+        function initMatrixEffect() {
+            const canvas = document.createElement('canvas');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            document.querySelector('.matrix').appendChild(canvas);
+
+            const ctx = canvas.getContext('2d');
+            const columns = canvas.width / 20;
+            const drops = Array.from({ length: columns }, () => 1);
+
+            function draw() {
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                ctx.fillStyle = '#00ff00';
+                ctx.font = '15px Courier';
+                drops.forEach((drop, i) => {
+                    const text = String.fromCharCode(0x30A0 + Math.random() * 96);
+                    ctx.fillText(text, i * 20, drop * 20);
+
+                    if (drop * 20 > canvas.height || Math.random() > 0.95) {
+                        drops[i] = 0;
+                    }
+                    drops[i]++;
+                });
+            }
+
+            setInterval(draw, 50);
+        }
+
+        document.addEventListener('DOMContentLoaded', initMatrixEffect);
+    </script>
+</head>
+<body>
+    <div class="matrix"></div>
+    <h1>Alphabet Encryptor</h1>
+    <div class="info-box">
+        <p>
+            Encryptor is your solution for circumventing word filters, hiding text from spam filters and bots, while keeping it perfectly readable for humans. This tool employs a clever use of homoglyph substitution to disguise your words without altering their visual appearance.
+        </p>
+        <p>
+            For instance, a regular name like:  
+            <strong>Chase Bank</strong>  
+            can be transformed into:  
+            <strong>Сhаѕе Βаոk</strong>  
+        </p>
+    </div>
+
+    <textarea id="text" rows="5" placeholder="Enter text to encrypt"></textarea><br>
+    <button onclick="handleEncrypt()">Encrypt</button><br>
+    <textarea id="textres" rows="5" readonly placeholder="Encrypted text will appear here"></textarea>
+
+    <footer>
+        <p>Created for Educational Use Only</p>
+        <p>Check out the source code on <a href="https://github.com/root60" target="_blank">GitHub</a>.</p>
+    </footer>
+</body>
+</html>
