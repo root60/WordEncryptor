@@ -43,7 +43,7 @@ Permission is hereby granted to use, modify, and distribute this software (the "
 
 This license has no expiration date and is valid indefinitely unless revoked by the author.
 
-### Footer
+### About Dev.
 
 Created by RedHydra for Educational Use Only  
 Check out the source code on [GitHub](https://github.com/root60).  
