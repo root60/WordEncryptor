@@ -1,55 +1,21 @@
-Here is the plain text version of the fully detailed page with all the information for your GitHub profile:
+Personal License for Alphabet Encryptor (Version 1.0)
 
----
+Copyright (c) 2024 RedHydra
 
-# Alphabet Encryptor - Documentation
+Permission is hereby granted to use, modify, and distribute this software (the "Software") in personal, non-commercial, or educational contexts, subject to the following conditions:
 
-### Project Overview
+1. **Non-Commercial Use**: This Software may only be used for personal, non-commercial purposes. Any commercial use of this Software is prohibited unless explicitly authorized in writing by the copyright holder.
 
-The **Alphabet Encryptor** is a tool that uses homoglyph substitution to hide text by replacing regular characters with visually similar characters from other alphabets (e.g., Cyrillic, Greek, Mathematical, etc.).
+2. **Attribution**: If you modify or distribute the Software, you must credit the original author, RedHydra, in any derivative works, with a prominent notice stating the changes made. This applies to both code and documentation.
 
-This tool is useful for circumventing word filters, hiding text from bots or spam filters, and demonstrating the power of visual encryption while keeping the text legible for humans.
+3. **No Warranty**: The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement. In no event shall the author be liable for any damages arising from the use of this Software.
 
-### Features
+4. **Educational Use**: The Software is intended for educational and personal purposes only. It must not be used for malicious, harmful, or illegal activities.
 
-- Encrypts text using homoglyph substitution.
-- Easy-to-use interface with input and output text areas.
-- Fast encryption process with real-time results.
-- Visually stunning effects with a matrix-like background animation.
+5. **Modification and Redistribution**: You are allowed to modify and redistribute the Software, provided that the terms of this license are maintained.
 
-### How It Works
+6. **No Expiration**: This license has no expiration date and is valid indefinitely unless explicitly revoked by the author.
 
-To use the tool, simply input your text into the "Enter text to encrypt" field, click the "Encrypt" button, and the encrypted version of the text will appear in the output area.
+For commercial licensing or other inquiries, please contact RedHydra at [t.me/@ItsRedHydra].
 
-The encryption works by replacing each character in the input with a visually similar character from different character sets (e.g., Cyrillic, Greek, Mathematical).
-
-#### Example:
-
-- Input: **Chase Bank**
-- Encrypted: **Сhаѕе Βаոk**
-
-### Usage Limitations
-
-- **Non-Commercial Use Only**: The tool is intended for personal or educational use only. Commercial use requires explicit permission from the copyright holder.
-- **No Malicious Use**: The tool must not be used for any illegal, harmful, or malicious activities, including but not limited to spamming, phishing, or evading security filters for harmful purposes.
-- **Attribution Required**: If you modify or redistribute this software, you must provide proper credit to the original author (RedHydra) in all derivative works.
-- **No Warranty**: This tool is provided "as is" without any warranties or guarantees of any kind. The author is not responsible for any damages or issues arising from its use.
-- **Educational Use Only**: This tool is intended to help users understand the concept of homoglyph encryption and its potential applications in security and obfuscation.
-
-### License
-
-Copyright (c) 2024 RedHydra. All rights reserved.
-
-Permission is hereby granted to use, modify, and distribute this software (the "Software") for personal, non-commercial purposes only. Any commercial use of this software is prohibited unless explicitly authorized in writing by the copyright holder.
-
-This license has no expiration date and is valid indefinitely unless revoked by the author.
-
-### Footer
-
-Created by RedHydra for Educational Use Only  
-Check out the source code on [GitHub](https://github.com/root60).  
-Licensed under the [Personal License](LICENSE.txt).
-
----
-
-This plain text version can be added to your GitHub repository as a `README.txt` or `LICENSE.txt` file, and it can be easily viewed by anyone who visits your repository. Make sure to replace any placeholder links or names as needed.
+This license is effective as of 2024.
